@@ -1,0 +1,30 @@
+{
+  "name": "font-icon-generator",
+  "version": "0.0.1",
+  "author": "tupadr3",
+  "description": "A usefull description",
+  "license": "MIT",
+  "scripts": {
+    "devel": "node ./lib/index.js --devel",
+    "build": "rm dist -rf && node ./lib/index.js",
+    "clean": "rm dist -rf && rm .tmp/generated -rf"
+  },
+  "devDependencies": {},
+  "dependencies": {
+    "bluebird": "^3.5.1",
+    "command-line-args": "^5.0.2",
+    "dateformat": "^3.0.3",
+    "eslint": "^5.9.0",
+    "extend": "^3.0.1",
+    "fs-extra": "^6.0.1",
+    "isomorphic-git": "^0.19.3",
+    "lodash": "^4.17.10",
+    "minimist": "^1.2.0",
+    "ncp": "^2.0.0",
+    "os": "^0.1.1",
+    "pngjs": "^3.3.3",
+    "progress": "^2.0.0",
+    "winston": "^2.4.2",
+    "xml2js": "^0.4.19"
+  }
+}
