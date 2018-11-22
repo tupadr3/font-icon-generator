@@ -15,7 +15,7 @@ npm install --global --production windows-build-tools
 ### Linux
 
 ```bash
-apt install librsvg2-bin openjdk-11-jre
+apt install librsvg2-bin openjdk-11-jre graphviz
 ```
 
 ## Build
