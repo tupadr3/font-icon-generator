@@ -12,7 +12,8 @@
   "devDependencies": {},
   "dependencies": {
     "bluebird": "^3.5.1",
-    "command-line-args": "^5.0.2",
+    "command-line-args": "^5.1.1",
+    "command-line-usage": "^6.0.2",
     "dateformat": "^3.0.3",
     "eslint": "^5.9.0",
     "extend": "^3.0.1",
