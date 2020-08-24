@@ -22,6 +22,7 @@ apt install librsvg2-bin openjdk-11-jre graphviz
 
 ```bash
 mkdir .tmp -p
+cd .tmp
 git clone git@github.com:tupadr3/plantuml-icon-font-sprites.git github
 cd github
 git checkout develop
@@ -31,6 +32,6 @@ yarn build --github
 
 ## Todo
 
--   code cleanup
--   readme
--   ....
+* code cleanup
+* readme
+
