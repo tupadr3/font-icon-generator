@@ -25,7 +25,7 @@ mkdir .tmp -p
 cd .tmp
 git clone git@github.com:tupadr3/plantuml-icon-font-sprites.git github
 cd github
-git checkout develop
+git checkout master
 cd ../..
 yarn build --github
 ```
